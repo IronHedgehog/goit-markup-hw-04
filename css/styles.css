@@ -43,6 +43,13 @@ ol {
     width: 1200px;
 }
 
+.hero-container {
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 1600px;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -134,11 +141,11 @@ img {
 }
 
 .icon-mail::before {
-    background-image: url(../images/icons/icon-mail.svg);
+    background-image: url(../images/icons-header/icon-mail.svg);
 }
 
 .icon-phone::before {
-    background-image: url(../images/icons/icon-tel.svg);
+    background-image: url(../images/icons-header/icon-tel.svg);
     height: 16px;
     width: 10px;
 }
@@ -186,7 +193,17 @@ img {
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
-    background-color: var(--hero-bg);
+    /* background-color: var(--hero-bg); */
+}
+
+.hero-bcg {
+    max-width: 1600px;
+    max-height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../images/hero-bcg/hero.jpg);
+    background-position: center;
+    background-size: contain;
 }
 
 .hero-title {
