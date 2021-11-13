@@ -543,6 +543,10 @@ height="16" width="10" */
     margin-bottom: 70px;
 }
 
+.flex {
+    display: flex;
+}
+
 .container-addres {
     display: flex;
     flex-direction: row;
