@@ -10,8 +10,8 @@
     --soc-link: #AFB1B8;
     --soc-link-h: #ffffff;
     --clients-border: #AFB1B8;
-    --items: 3;
-    --mar: 30;
+    --gap: 30px;
+    --item: 1;
 }
 
 body {
@@ -58,11 +58,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-
-
-/* 
-.grid {}
-.grid-item{} */
 
 .flex-box {
     display: flex;
@@ -525,9 +520,37 @@ height="16" width="10" */
 }
 
 .footer-logo-padding {
-    display: block;
+    display: flex;
     padding: 0;
     margin-bottom: 20px;
+}
+
+.footer-addres {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -70px;
+    margin-right: -70px;
+}
+
+.footer-list-item {
+    flex-basis: calc(100% / 2 - 70px);
+    margin-right: 70px;
+    margin-bottom: 70px;
+}
+
+.join {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-bg);
 }
 
 .address-text {
@@ -555,11 +578,13 @@ height="16" width="10" */
     margin-bottom: 9px;
 }
 
+.footer-second-list {
+    display: flex;
+    flex-direction: column;
+}
 
-/* Partfolio styles */
 
-
-/* .partfolio-item-list  */
+/* ///////////////////////////////////Partfolio styles //////////////////////////////////////////////////////////////*/
 
 .partfolio-buttons {
     padding-top: 6px;
